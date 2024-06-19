@@ -35,7 +35,7 @@ class _InfoScreenState extends State<InfoScreen> {
         body: CustomScrollView(
           slivers: [
             SliverAppBar(
-              leading: Text(''), // for remove def na
+              automaticallyImplyLeading: false,
               backgroundColor: Color(0xff031F2B),
               expandedHeight: 300,
               flexibleSpace: FlexibleSpaceBar(
