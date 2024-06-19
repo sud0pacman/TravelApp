@@ -150,7 +150,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ListView.separated(
               physics: const NeverScrollableScrollPhysics(),
               shrinkWrap: true,
-              itemCount: textSorting.length,
+              itemCount: textSorting.length, 
               itemBuilder: (context, index) {
                 return InkWell(
                     onTap: () {
