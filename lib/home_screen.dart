@@ -137,6 +137,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         showData[index].name,
                         showData[index].location,
                       ),
+                      highlightColor: Colors.transparent,
+                      splashColor: Colors.transparent,
                     );
                   }),
             ),
@@ -163,6 +165,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 )));
                       });
                     },
+                    highlightColor: Colors.transparent,
+                    splashColor: Colors.transparent,
                     child: Container(
                       height: 150,
                       decoration: BoxDecoration(
